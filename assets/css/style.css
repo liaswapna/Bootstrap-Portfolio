@@ -1,0 +1,113 @@
+body {
+    background-image: url(../images/gravel.png);
+    padding: 0;
+    margin: 0;
+    color: #777777;
+}
+.navbar {
+    background-color: #ffffff ! important;
+    font-family: 'Georgia', 'Times', Times New Roman, serif;
+    height: 60px;
+    padding: 0px 16px;
+    border: 1px solid #dddddd;
+}
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: #ffffff ! important;
+    padding:5px;
+    padding-top:10px;
+    height: 100%;
+    margin-left:50px;
+}
+ul {
+    margin-right:50px;
+}
+a {
+    color: #777777 ! important;
+}
+a:hover {
+    background-color: #4aaaa5; 
+}
+#about {
+    margin-top:50px;
+    height: auto;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+h4 {
+    color: #4aaaa5;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+#line_line {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#line {
+    height:2px;
+    padding: 0 15px;
+    background-color: #777777;
+}
+#image_text {
+    margin-top:20px;
+}
+#image_me {
+    padding-right: 0px;
+    margin-bottom: 20px;
+}
+p {
+    line-height: 30px;
+}
+#foot_line {
+    height:5px;
+    background-color: #4aaaa5;
+}
+#foot {
+    height: 60px;
+    background-color: #777777;
+    color: #ffffff;
+    text-align: center;
+    padding-top:15px;
+}
+#wrapper {
+    padding: 0 30px;
+    padding-bottom: 30px;
+}
+
+
+/* Portfolio Page */
+
+
+.port-image {
+    position: relative;
+    height:200px;
+    width: 90%;
+}
+.image-text-block {
+    position: absolute;
+    height: 40px;
+    padding-top: 8px;
+    background-color: #4aaaa5;
+    width: 85.5%;
+    text-align: center;
+    bottom: 20px;
+}
+
+
+/* Contact Page */
+
+textarea {
+    width: 98%;
+}
+button {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: #4aaaa5;
+}
+button:hover {
+    background-color: aquamarine;
+}
+button:active {
+    background-color: aqua;
+}
