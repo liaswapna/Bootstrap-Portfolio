@@ -1,5 +1,8 @@
 body {
     background-image: url(../images/gravel.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
     padding: 0;
     margin: 0;
     color: #777777;
@@ -69,12 +72,22 @@ p {
     color: #ffffff;
     text-align: center;
     padding-top:15px;
+    overflow: hidden;
 }
 #wrapper {
     padding: 0 30px;
     padding-bottom: 30px;
 }
-
+.foot-image-div{
+    height:15%;
+    width: 15%;
+}
+.foot-image{
+    widows: 30px;
+    height: 30px;
+    float:  left;
+    
+}
 
 /* Portfolio Page */
 
