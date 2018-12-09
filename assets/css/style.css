@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     background-image: url(../images/gravel.png);
     background-position: center;
@@ -77,6 +80,7 @@ p {
 #wrapper {
     padding: 0 30px;
     padding-bottom: 30px;
+    height: auto;
 }
 .foot-image-div{
     height:15%;
